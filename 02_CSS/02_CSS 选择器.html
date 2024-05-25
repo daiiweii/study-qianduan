@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>选择器</title>
+    <style>
+        /*元素选择器*/
+        h2{
+            color: aqua;}
+        /*类选择器*/
+        .myTitle{
+            background-color:rgb(51, 122, 132);}
+        /*id 选择器*/
+        #myid{
+            color: brown;}
+        /*全局选择器*/
+        *{
+            color:bisque ;
+        }
+        /*合并选择器*/
+        h5,h6{
+            font-size: 20px;
+        }
+        /*子元素选择器*/
+        .father>p{
+            color: cadetblue;
+        }
+        /*后代选择器*/
+        .father p{
+            background-color: blue;
+        }
+        /*兄弟选择器*/
+        .mm + p{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>不同类型的 CSS 选择器</h1>
+    <h2>元素选择器</h2>
+    <h3>类选择器</h3>
+    <h3 class="myTitle">类选择器</h3>
+    <h4 id="myid">id 选择器</h4>
+    <h5>合并选择器示例1</h5>
+    <h6>合并选择器示例2</h6>
+    <div class="father">
+        <p class="son"> 子元素选择器</p>
+        <div>
+            <p class="grandson">后代选择器</p>
+        </div>
+    </div>
+    <p>兄弟选择器</p>
+    <p class="mm">兄弟选择器</p>
+    <p>兄弟选择器</p>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            /* 字体颜色 */
+            color:red;
+            /* color: #00008a; */
+            /* color:rgb(73, 130, 138) */
+            /* color: rgba(0, 0, 0, 3); */
+            /* 字体大小 */
+            font-size: 40px;
+            /* 字体粗细 */
+            font-weight: 500;
+            /* 文本字体样式 */
+            font-style: italic;
+            /* 字体类型 */
+            font-family:'Times New Roman', Times, serif;
+        }
+        i{
+            /* 使i标签斜体为正 */
+            font-style: normal;
+        }
+        .div1{
+            width: 400px;
+            height: 400px;
+            background-color: bisque;
+        }
+        .div2{
+            width: 200px;
+            height: 200px;
+            background-image: url("1664155033954.jpg");
+            /* 背景图片的平铺方式 */
+            background-repeat: no-repeat;
+            /* 背景图片大小 */
+            background-size:contain;
+            /* 图片起始位置 */
+            background-position: center top;
+        }
+        h3{
+            /* 文本对齐方式 */
+            text-align: center;
+            /* 文本修饰 */
+            text-decoration: underline;
+            
+        }
+        .p1{
+            font-size: medium;
+            text-align: center;
+            /* 文本大小写 */
+            text-transform: capitalize;
+        }
+        .p2{
+            /* 文本缩进 */
+            text-indent: 100px;
+        }
+        table,td{
+            border: 1px solid red;
+        }
+        table{
+            /* 折叠边框 */
+            border-collapse: collapse;
+            /* 表格宽度和高度 */
+            width: 400px;
+            height: 250px;
+        }
+        td{
+            /* 表格文字对齐 */
+            text-align: center;
+            /* 表格填充 */
+            padding: 20px;
+            background-color: pink;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- 字体属性 -->
+    <p>字体属性</p>
+    <i>i标签</i>
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <!--文本属性-->
+    <h3>标题内容</h3>
+    <p class="p1">hello world</p>
+    <p class="p2">Visual Studio Code 是一款优秀的编辑器，对于开发前端带来了很多便利，
+        熟悉快捷键的使用，能够起到事半功倍的作用，提高工作效率。
+        下面就Visual Studio Code常用快捷键的一些介绍，若有不到之处请留言指出，我会及时纠正。</p>
+    <!-- 表格属性 -->
+        <table>
+            <tr>
+                <td>单元格</td>
+                <td>单元格</td>
+                <td>单元格</td>
+            </tr>
+            <tr>
+                <td>单元格</td>
+                <td>单元格</td>
+                <td>单元格</td>
+            </tr>
+            <tr>
+                <td>单元格</td>
+                <td>单元格</td>
+                <td>单元格</td>
+            </tr>
+        </table>
+</body>
+</html>
